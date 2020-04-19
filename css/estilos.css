@@ -34,13 +34,18 @@ body{
 	margin: 0 auto;
 	padding: 15px;
 }
-#area-lateral{
-	background: orange;
-}
+
 
 #area-postagens{
 	width: 660px;
 	float: left;
+}
+
+#area-noticia{
+	width: 660px;
+	float: left;
+	margin-bottom: 50px;
+	font-family: 'Noticia Text', serif;
 }
 
 .postagem{
@@ -49,9 +54,40 @@ body{
 	background: white;
 }
 
+.conteudo-lateral{
+	background:white;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+
+
+.postagem-lateral{
+	border-bottom: 1px solid #CCC;
+}
+
+#menu-lateral{
+	background: white;
+	margin-top: 20px;
+	padding: 5px;
+	
+}
+
+#menu-lateral a{
+	margin-bottom: 1000px;
+}
+
 #area-lateral{
 	width: 240px;
 	float: right;
+}
+
+.postagem-lateral{
+	border-bottom: 1px solid #CCC;
+}
+
+.link-menu-lateral{
+
 }
 
 #rodape{
@@ -108,6 +144,12 @@ h1{
 
 h2{
 	color: #f7b600;
+}
+
+h3{
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
 }
 
 .branco{
